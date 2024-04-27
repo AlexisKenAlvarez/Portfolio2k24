@@ -149,12 +149,12 @@ const Hero = () => {
           <Nav />
           <div className=" uppercase text-center lg:text-left">
             <h3 className="to-left">hi there i&apos;m aki</h3>
-            <div className="relative font-secondary text-5xl lg:text-7xl 2xl:text-8xl">
+            <div className="relative font-secondary text-4xl sm:text-5xl lg:text-7xl 2xl:text-8xl">
               <h1 className="relative font-black text-black">
-                fullstack developer
+                web developer
               </h1>
-              <h1 className="outlined absolute left-0 top-0 z-[2] font-bold text-transparent">
-                fullstack developer
+              <h1 className="outlined absolute left-0 top-0 z-[2] font-bold text-transparent lg:block hidden">
+                web developer
               </h1>
             </div>
             <h3 className="relative z-[2] ml-auto w-fit to-right lg:block hidden">based in ph</h3>
