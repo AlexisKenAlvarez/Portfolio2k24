@@ -24,7 +24,7 @@ const Nav = () => {
           <h1 className="">ALEXIS KEN</h1>
           <h1 className="">ALVAREZ</h1>
         </div>
-        <button className="block rounded-md p-2 md:hidden">
+        <button className="block rounded-md p-2 md:hidden bg-black text-white">
           <Menu />
         </button>
         <ul className="hidden gap-20 md:flex">

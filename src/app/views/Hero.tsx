@@ -147,7 +147,7 @@ const Hero = () => {
         </motion.div>
         <div className="p-5 font-semibold opacity-0" ref={containerRef}>
           <Nav />
-          <div className=" uppercase">
+          <div className=" uppercase text-center lg:text-left">
             <h3 className="to-left">hi there i&apos;m aki</h3>
             <div className="relative font-secondary text-5xl lg:text-7xl 2xl:text-8xl">
               <h1 className="relative font-black text-black">
@@ -157,7 +157,7 @@ const Hero = () => {
                 fullstack developer
               </h1>
             </div>
-            <h3 className="relative z-[2] ml-auto block w-fit to-right">based in ph</h3>
+            <h3 className="relative z-[2] ml-auto w-fit to-right lg:block hidden">based in ph</h3>
             <Image
               src="/profile.png"
               alt="Profile"
