@@ -9,12 +9,15 @@ import Image from "next/image";
 import { useRef } from "react";
 import { CgSpinnerTwoAlt } from "react-icons/cg";
 
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const ref = useRef<HTMLDivElement>(null);
 
   useGSAP(
     () => {
+      gsap.registerPlugin(ScrollTrigger);
       const mm = gsap.matchMedia();
       const tl = gsap.timeline({});
 

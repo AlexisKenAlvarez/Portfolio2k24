@@ -11,9 +11,10 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Wrapper = ({ children }: { children: ReactNode }) => {
+
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
-  });
+  })
   useEffect(() => {
     let scroll: import("locomotive-scroll");
     import("locomotive-scroll").then((locomotiveModule) => {
